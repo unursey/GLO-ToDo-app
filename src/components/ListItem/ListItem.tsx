@@ -7,7 +7,7 @@ export const ListItem = (props: { todo: ToDo, num: number} ) => {
       todo={props.todo.isDone}
       target="_blank"
       rel="noreferrer"
-      href={`/GLO-ToDo-app/list/${props.todo.id}`}>
+      href={`/list/${props.todo.id}`}>
         {`${props.num + 1}. ${props.todo.text}`}
       </ListItemLink>
   )
