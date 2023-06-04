@@ -30,5 +30,5 @@ export const router = createBrowserRouter([
     element: <NotFound />
   }
 ], 
-{ basename: '/GLO-ToDo-app/' }
+{ basename: '/GLO-ToDo-app' }
 )
