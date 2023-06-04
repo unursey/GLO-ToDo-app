@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GLO-ToDo-app/static/css/main.98ec47ca.css",
+    "main.js": "/GLO-ToDo-app/static/js/main.e737ed2c.js",
+    "index.html": "/GLO-ToDo-app/index.html",
+    "main.98ec47ca.css.map": "/GLO-ToDo-app/static/css/main.98ec47ca.css.map",
+    "main.e737ed2c.js.map": "/GLO-ToDo-app/static/js/main.e737ed2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98ec47ca.css",
+    "static/js/main.e737ed2c.js"
+  ]
+}
