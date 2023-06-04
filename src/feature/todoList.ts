@@ -1,6 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 import { ToDo } from '../models/todo-item'
+import { v4 as uuid } from 'uuid'
 
 export interface TodoState {
   todos: ToDo[]
@@ -18,7 +19,7 @@ export const todoSlice = createSlice({
       console.log('action: ', action);
 
       const newToDo: ToDo = {
-        id: state.todos.length,
+        id: uuid(),
         text: action.payload,
         isDone: false
       }

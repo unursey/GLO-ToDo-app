@@ -7,10 +7,8 @@ export const ToDoItem = styled.li`
   font-weight: 500;
   color: #444;
   line-height: 22px;
-
   display: flex;
   justify-content: space-between;
-
   background: #fff;
   border-radius: 5px;
   position: relative;
@@ -30,7 +28,6 @@ export const ToDoItemControls = styled.div`
   width: 100px;
   height: 50px;
   display: flex;
-
   position: absolute;
   top: 0;
   right: 0;
