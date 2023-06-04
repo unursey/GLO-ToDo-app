@@ -47,7 +47,6 @@ export const HeaderControl = styled.div`
   position: relative;
   width: 80px;
 	height: 30px;
-  cursor: pointer;
   align-self: center;
   flex-shrink: 0;
   z-index: 10;
